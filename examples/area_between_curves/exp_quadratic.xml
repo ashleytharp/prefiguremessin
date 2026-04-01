@@ -1,0 +1,22 @@
+<diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=-1*x^2</definition>
+  <definition>g(x)=exp(x)</definition>
+  <definition>h(y)=1</definition>
+  <definition>a=intersect((f,g),0)</definition>
+  <definition>b=intersect((f,g),1)</definition>
+  <coordinates bbox="(-1,-2,2.5,3.5)">
+    <grid-axes decorations="yes"/>
+    <area-between-curves functions="(f,g)" domain="(a,b)" fill="lightgray"/>
+    <graph function="f"/>
+    <label p="(1.5,-1.5)" alignment="east" clear-background="yes">
+      <m>y=-x^2</m>
+    </label>
+    <graph function="g"/>
+    <label p="(1.25,3)" alignment="east" clear-background="yes">
+      <m>y=e^x</m>
+    </label>
+    <line endpoints="((a,0),(a,0))" />
+    <line endpoints="((b,3.5),(b,-2))" stroke="blue" />
+
+  </coordinates>
+</diagram>

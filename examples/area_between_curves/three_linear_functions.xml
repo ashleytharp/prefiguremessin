@@ -1,0 +1,15 @@
+<diagram dimensions="(240,300)" margins="5">
+<definition>f(x)=x</definition>
+<definition>g(x)=4-x</definition>
+<definition>h(x)=3*x</definition>
+<definition>a=intersect((f,g),-1)</definition>
+<definition>b=intersect((f,g),2)</definition>
+<coordinates bbox="(-.5,-.5,3,4)">
+<grid-axes decorations="yes"/>
+<area-between-curves function1="f" function2="h" domain="(0,1)" fill="lightgray"/>
+<area-between-curves functions="(f,g)" domain="(1,2)" fill="lightgray" stroke="lightgray"/>
+<graph function="f"/>
+<graph function="g"/>
+<graph function="h"/>
+</coordinates>
+</diagram>

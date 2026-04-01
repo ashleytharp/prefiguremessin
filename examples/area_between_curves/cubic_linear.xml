@@ -1,0 +1,20 @@
+<diagram dimensions="(300,300)" margins="5">
+<definition>f(x)=x</definition>
+<definition>g(x)=x^3-2*x</definition>
+<definition>a=intersect((f,g),-1)</definition>
+<definition>b=intersect((f,g),2)</definition>
+<coordinates bbox="(-2.5,-3,2.5,5)">
+<grid-axes decorations="yes"/>
+<area-between-curves function1="f" function2="g" domain="(-1,0)" fill="lightgray" stroke="black"/>
+<area-between-curves functions="(f,g)" domain="(a,b)" fill="lightgray"/>
+<area-between-curves function1="g" function2="f" domain="(b,2)" fill="lightgray" stroke="black"/>
+<graph function="f"/>
+<graph function="g"/>
+<label p="(1.9,4)" alignment="west" clear-background="yes">
+<m>y=x^3-2x</m>
+</label>
+<label p="(-1.25,-1.5)" alignment="east" clear-background="yes">
+<m>y=x</m>
+</label>
+</coordinates>
+</diagram>

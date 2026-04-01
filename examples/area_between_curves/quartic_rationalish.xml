@@ -1,0 +1,18 @@
+<diagram dimensions="(300,300)" margins="5">
+<definition>f(x)=x/(sqrt(x^2+1))</definition>
+<definition>g(x)=x^4-x</definition>
+<definition>a=intersect((f,g),0)</definition>
+<definition>b=intersect((f,g),2)</definition>
+<coordinates bbox="(-1,-1.5,2,1.5)">
+<grid-axes decorations="yes"/>
+<area-between-curves functions="(f,g)" domain="(a,b)" fill="lightgray"/>
+<graph function="f"/>
+<label p="(.5,-.5)" alignment="southeast" clear-background="yes">
+<m>y=x^4-x</m>
+</label>
+<graph function="g"/>
+<label p="(-.9,-.75)" alignment="southeast" clear-background="yes">
+<m>y=\frac{x}{\sqrt{x^2+1}}</m>
+</label>
+</coordinates>
+</diagram>

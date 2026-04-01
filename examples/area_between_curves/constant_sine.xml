@@ -1,0 +1,14 @@
+<diagram dimensions="(300,300)" margins="5">
+<definition>f(x)=.5</definition>
+<definition>g(x)=sin(x)</definition>
+<definition>a=intersect((f,g),.1)</definition>
+<definition>b=intersect((f,g),2)</definition>
+<coordinates bbox="(-.5,-.5,1.75,1.5)">
+<grid-axes decorations="yes"/>
+<area-between-curves function1="f" function2="g" domain="(0,a)" fill="lightgray" fill-opacity=".6"/>
+<area-between-curves functions="(f,g)" domain="(a,pi/2)" fill="lightgray" fill-opacity=".6" stroke="lightgray"/>
+<graph function="f"/>
+<graph function="g"/>
+<graph function="h"/>
+</coordinates>
+</diagram>

@@ -1,0 +1,23 @@
+<diagram dimensions="(300, 300)" margins="5">
+  <definition>f(x)=sqrt(x+2)</definition>
+  <definition>h(x)=-1*sqrt(x+2)</definition>
+  <definition>g(x)=x</definition>
+  <coordinates bbox="[-2.5,-3,4,3]">
+  <definition>a=intersect((f,h),-1)</definition>
+    <grid-axes />
+    <area-between-curves function1="f" function2="g" domain="(a,2)"
+                         fill="lightgray" stroke="black"/>
+    <area-between-curves function1="f" function2="h" domain="(-2,a)"
+                         fill="lightgray" stroke="lightgray"/>
+    <graph function="f" domain="(-2,5)"/>
+    <graph function="h" domain="(-2,5)"/>
+    <label p="(1.25,-1.75)" alignment="northeast" clear-background="yes">
+      <m>x=y^2-2</m>
+    </label>
+    <graph function="g" domain="(-2.5,5)"/>
+    <label p="(1.25,1)" alignment="southeast" clear-background="yes">
+      <m>y=x</m>
+    </label>
+  </coordinates>
+  
+</diagram>
