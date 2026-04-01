@@ -1,0 +1,13 @@
+<diagram dimensions="(300,300)" margins="5">
+<definition>f(x)=x^2</definition>
+<definition>g(x)=2*x</definition>
+<definition>a=intersect((f,g),0)</definition>
+<definition>b=intersect((f,g),2)</definition>
+<coordinates bbox="(-.5,-.5,4.5,4.5)">
+<grid-axes decorations="yes"/>
+<area-between-curves functions="(f,g)" domain="(a,b)" fill="lightgray" fill-opacity=".6" stroke="lightgray"/>
+<graph function="f"/>
+<graph function="g"/>
+<graph function="h"/>
+</coordinates>
+</diagram>
