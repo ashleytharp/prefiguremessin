@@ -1,0 +1,13 @@
+<diagram dimensions="(500,300)" margins="(60,30,15,15)">
+ <definition>f(t,y) = .02*y+1</definition>
+ <coordinates bbox="[0,0,110,1250]">
+   <grid-axes
+     h-zero-label="yes"
+     v-zero-label="yes"/>
+   <slope-field at="slope-field" function="f" outline="yes"/>
+   <group at="solutions" outline="tactile">
+       <plot-de-solution at="solution" function="f" t0="0" y0="330" y1="1000" stroke="orange"/>
+       <point at="initial-value" p="(0,330)" size="4" fill="orange"/>
+   </group>
+ </coordinates>
+</diagram>
